@@ -1,0 +1,30 @@
+/* custom css */ 
+
+body {
+  box-shadow: inset 0 0 1rem rgba(8, 8, 8, 0.5);
+}
+
+.text-container {
+  max-width: 60em;
+   
+}
+
+.text-just {
+  text-align: justify;
+}
+ 
+.padabit{
+
+  padding: 0.5rem;
+}
+
+.exclamation {
+  animation: exclamation 1s linear infinite;
+  text-shadow: 0 0 1rem rgba(4, 211, 248, 0.479);
+
+}
+@keyframes exclamation {
+  50% {
+    opacity: 0.1;
+  }
+}
